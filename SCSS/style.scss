@@ -1,0 +1,28 @@
+$width: 100%;
+$font-size: 1.2rem;
+$background: #962acd;
+$color: #fff;
+$border-style: solid 1px $color;
+
+$width-rem: 3.5rem;
+$width-px: 300px;
+$width: 300;
+
+$font: 'Lucida Grande';
+$weight: bold;
+
+nav {
+    background: $background;
+    background: $color;
+    width: $width;
+    font-size: $font-size;
+}
+
+aside {
+    width: $width-px;
+}
+
+section {
+    font-family: $font;
+    font-weight: $weight;
+}
