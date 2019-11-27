@@ -1,42 +1,7 @@
-.msg {
-    border: 1px solid;
-    padding: 4px;
-    text-align: center;
+@function calc-fluid ($target, $container) {
+    @return ($target / $container) * 100%;
 }
 
-.msg-error {
-    @extend .msg;
-    border-color: #ff0000;
-    color: #ff0000;
-}
-
-.msg-alert {
-    @extend .msg;
-    border-color: #ff8e00;
-    color: #ff8e00;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.hoverlink {
-    @extend a:hover;
-    color: #000;
-}
-
-.error {
-    border: 1px #f00;
-    background-color: #fdd;
-}
-
-.attention {
-    font-size: 33px;
-    background-color: #ff0;
-}
-
-.seriousError {
-    @extend .error;
-    @extend .attention;
-    border-width: 3px;
+div {
+    width: calc-fluid(400px, 1000px);
 }
