@@ -1,7 +1,8 @@
-@function calc-fluid ($target, $container) {
-    @return ($target / $container) * 100%;
+%center {
+    display: block;
+    margin: 0 auto;
 }
 
 div {
-    width: calc-fluid(400px, 1000px);
+    @extend %center;
 }
