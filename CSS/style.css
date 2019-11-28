@@ -1,5 +1,1 @@
-header {
-  padding: 3em; }
-  @media (min-width: 768px) {
-    header {
-      padding: 2em; } }
+header{padding:3em}@media (min-width: 768px){header{padding:2em}}

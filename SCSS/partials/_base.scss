@@ -1,0 +1,32 @@
+* {
+    margin: $zero;
+    padding: $zero;
+    @include box-sizing($border-box);
+}
+
+html {
+    font-size: convertPxToRem(16px);
+}
+
+body {
+    background: #fafafa;
+
+    ul {
+        padding: $zero;
+        margin: $zero;
+    }
+
+    img {
+        border: $zero;
+    }
+
+    a {
+        text-decoration: $none;
+    }
+
+    main {
+        width: 90%;
+        max-width: convertPxToRem(935px);
+        margin: 0 auto;
+    }
+}

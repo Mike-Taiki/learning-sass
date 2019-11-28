@@ -1,0 +1,19 @@
+header {
+    @include tablet {
+        header {
+            flex-flow: row;
+
+            .avatar {
+                margin: 0 40px;
+            }
+
+            .desc {
+                text-align: left;
+            }
+        }
+
+        .photos li {
+            width: 30%;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+@import url("./partials/mixins.scss");
+@import url("./partials/functions.scss");
+@import url("./partials/media_queries.scss");
+@import url("./partials/variables.scss");
+@import url("./partials/base.scss");
+@import url("./partials/btn.scss");
+@import url("./partials/header.scss");
