@@ -1,8 +1,28 @@
-%center {
-    display: block;
-    margin: 0 auto;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin landscape {
+    @media screen and (orientation: landscape) {
+        @content;
+    }
 }
 
-div {
-    @extend %center;
+@mixin tablet {
+    @media (min-width: #{$tablet-width}) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: #{$desktop-width}) {
+        @content;
+    }
+}
+
+header {
+    padding: 3em;
+
+    @include tablet {
+        padding: 2em;
+    }
 }

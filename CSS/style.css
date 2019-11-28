@@ -1,3 +1,5 @@
-div {
-  display: block;
-  margin: 0 auto; }
+header {
+  padding: 3em; }
+  @media (min-width: 768px) {
+    header {
+      padding: 2em; } }
